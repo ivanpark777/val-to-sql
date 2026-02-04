@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtValues.Text" xml:space="preserve">
+    <value>@skus				
+device_id	TYPE ID	VENDOR ID	MODEL ID	VERSION ID
+90	MDM	ACT	T2200	M00
+111	STB	APP	0TV4K	001
+127	MDM	ARR	TM822	G00
+109	MDM	ARR	TG2472	GCO
+101	MDM	ARR	DG3270	AEL
+89	MDM	ARR	DG1670	EL0
+94	MDM	ARR	DG2470	001
+95	MDM	ARR		
+3	MDM	BDM	R4P68	16M
+1	MDM	BDM	96328	AVN
+4	STB	CEL		
+5	MDM	CIS	DPC300	001
+6	MDM	CIS	DPC3848	001
+7				
+149	RTR	EER	PRO6E	BLL
+139	RTR	EER	00006	001
+8	ATA	GND	DP710	001
+9	ATA	GND	DP715	001
+10	ATA	GND	HT701	001
+61	ATA	GND	HT801	001
+63	MDM	HTN	0CDA3	35R
+91	MDM	HTN	0CDA3	CO0
+88	MDM	HTN	0CGN3	RG0
+11	MDM	HTN	CDA0R	RG0
+12	MDM	HTN	0CDA3	RG0
+36	MDM	HTN	CDA0R	CO0
+37	MDM	HTN	CDA0R	VT0
+38	MDM	HTN	CDA0R	SH0
+39	MDM	HTN	0CDA3	SH0
+98	MDM	HTN	0CDA3	EL0
+121	MDM	HTN	0CDA3	CO0
+125	MDM	HTN	CODA4	RG0
+126	MDM	HTN	CODA4	SH0
+137	MDM	HTN	CODA4	CO0
+128	MDM	HTN	CODA4	EL0
+129	MDM	HTN	0CDA3	SH0
+13	MDM	HUW	MT130	001
+14	MDM	KSD	KW526	C15
+92	MDM	KSD	KW621	2TL
+93	MDM	KSD	KW621	2AL
+76	MDM	KSD	KW621	3AL
+64	MDM	KSD	KW526	200
+69	MDM	KSD	KW621	3TL
+62	MDM	KSD	KW621	3BL
+59	MDM	KSD	KW631	3AD
+60	MDM	KSD	KW621	2VD
+2	MDM	KSD	KW526	C15
+32	MDM	KSD	KW526	C15
+100	MDM	KSD	KW621	2BL
+147	MDM	KSD	DX625	5BL
+15	MDM	MOT	SB510	1I0
+16	MDM	MOT	SB612	001
+17	MDM	MOT	SB612	100
+18	MDM	MOT	SB614	100
+19	MDM	MOT	SBG65	800
+20	MDM	SAG	02864	001
+144	MDM	SER	DM100	0CO
+145	MDM	SER	DM100	0SH
+146	MDM	SER	DM100	0VT
+140	MDM	SER	DM100	0EL
+141	MDM	SER	DM100	0RG
+21	MDM	SRG	SR505	NBL
+66	MDM	SRG	SR505	NTL
+80	MDM	SRG	SR804	NCO
+83	MDM	SRG	SR506	BLL
+85	MDM	SRG	SR506	NTL
+143	MDM	SRG	SR516	ACB
+136	MDM	SRG	SR808	ACC
+22	STB	VME	TVHUB	001
+67	MDM	TEC	TC440	0VT
+97	MDM	TEC	TC440	0SH
+110	MDM	TEC	TC440	0RG
+23	RTR	TDA	0F303	001
+24	RTR	TDA	FH120	100
+44	RTR	TDA	W303R	001
+45	RTR	TDA	FH120	600
+65	MDM	THM	TC430	001
+82	MDM	THM	TC435	001
+25	MDM	THM	DCM42	4RG
+26	MDM	THM	DCM47	5RG
+27	MDM	THM	DCM47	6RG
+40	MDM	THM	DCN42	5CO
+41	MDM	THM	DCM42	500
+42	MDM	THM	DCM47	600
+43	MDM	THM	DCM47	500
+113	MDM	THM	DCM47	6CO
+114	MDM	THM	TC430	0CO
+115	MDM	THM	DCM42	5CO
+116	MDM	THM	DCM42	5VT
+117	MDM	THM	DCM47	5VT
+124	RTR	TPL	AC135	001
+112	RTR	TPL	AC120	001
+122	RTR	TPL	C1200	001
+28	RTR	TPL	PA201	001
+29	RTR	TPL	AV500	001
+77	RTR	TPL	AV600	001
+46	RTR	TRE	TW100	S4W
+123	RTR	TRE	TW100	S4W
+138	REM	UEI	APPLE	001
+48	STB	VME	DUAL4	EW0
+49	STB	VME	QUAD4	LIS
+50	STB	VME	SINGL	IG0
+51	STB	VME	SINGL	SGF
+52	STB	VME	SINGL	SGT
+53	STB	VME	SINGL	STG
+54	STB	VME	SINGL	VSG
+55	STB	VME	DUAL4	VIG
+56	STB	VME		
+57	STB	VME	QUAD4	24G
+58	STB	VME	QUAD4	P00
+79	STB	VME	VBOX7	001
+87	STB	VME	VBOX7	100
+142	STB	VME	VBOX7	ULT
+99	STB	VME	VBOX9	001
+106	STB	VME	VBOXM	001
+30	MDM	VME	96328	AVN
+31	MDM	VME	KW586	3AD
+118	MDM	VME	DCM47	6UN
+119	MDM	VME	DCM47	5UN
+120	MDM	VME	TC430	0UN
+108	REM	VME	VBOXM	001
+102	REM	VME	VBOX7	1VR
+104	REM	VME	VBOX7	1R0
+105	REM	VME	QUAD4	24G
+47	RTR	VME	AC680	001
+96	HKT	ALU	00KIT	CB0
+70	HKT	ALU		
+71	HSE	ALU	DWSEN	001
+72	MSE	ALU	RIPMS	001
+73	PAD	ALU	PINPD	001
+74	FOB	ALU	KEYFB	001
+75	GSM	ALU	GSMCD	001
+78	HKT	ALU	00KIT	001</value>
+  </data>
+</root>
